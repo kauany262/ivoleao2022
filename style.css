@@ -11,7 +11,8 @@ body {
     position: relative
     width: 300px;
     margin: 0 auto;
-}
+    text-align: center;
+       }
 
 nav li {
     display: inline;
