@@ -1,0 +1,21 @@
+.logo {
+    width: 150px;
+    height: 150px;
+}
+
+.foto-produtos {
+    width: 150px;
+    height: 150px;
+}
+
+header {
+    background-color: #BBBBBB;
+    padding: 20px 0;
+}
+
+.caixa {
+    position: relative;
+    width: 740px;
+    margin: 0 auto;
+}
+
