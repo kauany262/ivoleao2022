@@ -38,6 +38,10 @@ nav a:hover {
     width: 850px;
 }
 
+h2 {
+    text-align: center;
+}
+
 .principal {
     background: #85e5;
     padding: 30px;
