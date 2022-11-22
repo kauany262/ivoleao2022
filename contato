@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+     <head>
+           <meta charset="UTF-8">
+           <title>Produtos - RK beauty salon</title>
+
+           <link rel="stylesheet" href="reset.css">
+           <link rel="stylesheet" href="produtos.css">
+     </head>
+     <body>
+           <header>
+
+                <div class="caixa">
+                <h1><img src="logo.png" class="logo"</h1>
+
+                <nav>
+                       <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="produtos.html">Produtos</a></li>
+                            <li><a href="contato.html">Contatos</a></li>
+                       </ul>
+                </nav>
+                </div>
+           </header>
+
+            <main>
+            teste
+            </main>
+            
+     <footer>
+        <img src="logorodape.png" class="logoB"
+
+        <center><p class="copyright1">Copyright RK beauty salon 2019</p></center>
+
+     </footer>
+
+     </body>
+</html>
