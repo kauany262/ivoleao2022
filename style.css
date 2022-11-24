@@ -1,27 +1,43 @@
-body {
-    background-color: #85e5
+.logo {
+    width: 200px;
+    height: 200px;
 }
 
-/*NAVEGAÇÃO ENTRE PAGINAS*/
-.navegação {
-    padding: 20px 0;
+.logoB{
+    width: 200px;
+    height: 200px;
+}
+
+.foto-produtos {
+    width: 150px;
+    height: 150px;
+}
+
+header {
+    background-color: #85e5;
+    padding: 25px 0;
 }
 
 .caixa {
     position: relative;
-    width: 300px;
+    width: 740px;
     margin: 0 auto;
-    text-align: center;
+}
+
+nav {
+    position: absolute;
+    top: 130px;
+    right: 0;
 }
 
 nav li {
-    display: inline;
-    margin:0 0 0 15px ;
+        display: inline;
+        margin: 0 0 0 15px;
 }
 
 nav a {
     text-transform: uppercase;
-    color:black;
+    color: black;
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
@@ -32,59 +48,62 @@ nav a:hover {
     text-decoration: underline;
 }
 
-/*HOME*/
-
-#salão {
-    width: 850px;
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
 }
 
-h2 {
-    text-align: center;
-}
-
-.principal {
-    background: #85e5;
-    padding: 30px;
-}
-
-.titulo-principal {
-    text-align: center;
-    padding-left: 20px;
-}
-
-.titulo-centralizado {
-    text-align: center;
-}
-
-p {
-    text-align: center;
-}
-
-#missao {
-    font-size: 20px;
-}
-
-em strong {
-    color: #FF0000;
-}
-
-.itens {
-    font-style: italic;
-}
-
-.benefícios {
-    background-color: #85e5;
-    padding: 20px;
-}
-
-ul{
+.produtos li {
     display: inline-block;
-    vertical-align: top;
-    width: 20%;
-    margin-right: 4%;
+    text-align: center;
+    width: 30%;
+    vertical-align:top ;
+    margin:0 1 5% ;
+    padding:30px 20px ;
+    box-sizing: border-box;
+    border:2px solid #000000 ;
+    border-radius: 10px;
 }
 
-.imagembenefícios {
-    width: 750px;
+.produtos li:hover {
+    border-color: rgb(255, 136, 0);
 }
 
+.produtos li:active {
+    border-color:rgb(9, 160, 9) ;
+}
+
+.produtos li:hover h2 {
+    font-size: 34px;
+}
+
+produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produtos-descrição {
+    font-size: 18px;
+}
+
+.produto-preço {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+footer {
+    text-align: center;
+}
+
+footer {
+      text-align: center;
+      background-color: #85e5;
+      padding: 40px 0;
+}
+
+.copyright1 {
+    color: white;
+    text-align: center;
+
+}
